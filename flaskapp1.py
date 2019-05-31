@@ -1,5 +1,6 @@
 import requests
 import boto3
+#we use boto3 to invoke the Lambda function PeterHiggs
 
 from flask import Flask, render_template
 app = Flask(__name__)
