@@ -1,6 +1,7 @@
 import requests
 import boto3
 #we use boto3 to invoke the Lambda function PeterHiggs
+#PeterHiggs performs the actions to get/convert/write to GD 
 
 from flask import Flask, render_template
 app = Flask(__name__)
