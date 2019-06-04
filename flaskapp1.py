@@ -9,9 +9,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     #print 'In index'
-    client = boto3.client('lambda')	
-    client.invoke(FunctionName='PeterHiggs',InvocationType='Event')
-    return render_template('success.html')
+    return render_template('index.html')
 
 @app.route('/index2')
 def index2():

@@ -1,0 +1,23 @@
+Status for converter-viaapigateway-production: 
+	Lambda Versions:      6
+	Lambda Name:          converter-viaapigateway-production
+	Lambda ARN:           arn:aws:lambda:us-east-2:555973454365:function:converter-viaapigateway-production
+	Lambda Role ARN:      arn:aws:iam::555973454365:role/converter-viaapigateway-production-ZappaLambdaExecutionRole
+	Lambda Handler:       handler.lambda_handler
+	Lambda Code Size:     6015993
+	Lambda Version:       $LATEST
+	Lambda Last Modified: 2019-06-03T23:28:50.822+0000
+	Lambda Memory Size:   512
+	Lambda Timeout:       30
+	Lambda Runtime:       python2.7
+	Lambda VPC ID:        
+	Invocations (24h):    6
+	Errors (24h):         0
+	Error Rate (24h):     0.00%
+	API Gateway URL:      https://jw2btgukj1.execute-api.us-east-2.amazonaws.com/production
+	Domain URL:           None Supplied
+	Num. Event Rules:     1
+	Event Rule ARN:       arn:aws:events:us-east-2:555973454365:rule/965650714690fc4120d80727c49e2dc22a15d-handler.keep_warm_callback
+	Event Rule Name:      965650714690fc4120d80727c49e2dc22a15d-handler.keep_warm_callback
+	Event Rule State:     Enabled
+	Event Rule Schedule:  rate(4 minutes)
